@@ -30,9 +30,8 @@ before.) */
 
 console.log('\n');
 console.log('\n');
-console.log('\n');
 //------------------------------------------------------------------------------------------------------------
-/* Challenges */
+/* Module Challenges */
 //------------------------------------------------------------------------------------------------------------
 /* BRONZE */
 var appleCost = 3;
@@ -42,7 +41,6 @@ var shampooCost = 9;
 var conditionerCost = 10;
 console.log("I need a few things from the grocery store. Shampoo will be $" + shampooCost + " and my conditioner is $" + conditionerCost + ".");
 
-console.log('\n');
 console.log('\n');
 /* SILVER */
 var myNumber = 0;
@@ -54,6 +52,7 @@ myNumber *= 9;
 console.log(myNumber);
 myNumber /= 7;
 console.log(myNumber);
+/* Another way to do this would be -- myNumber = (myNumber + 10); but the above method is best. */
 
 console.log('\n');
 console.log('\n');
@@ -64,6 +63,8 @@ var candyDay = 2;
 candyDay *= 77;
 console.log("If I won a lifetime supply of my favorite candy, I would need " + candyDay + " bags of hard toffee to last me the rest of my life.")
 
+console.log('\n');
+console.log('\n');
 
 
 
