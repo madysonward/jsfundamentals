@@ -18,9 +18,8 @@ console.log('Life\'s good');
 parentheses, to help with readability and simplify the process of finding mistakes. */
 console.log( "Life's good." );
 
-
 //------------------------------------------------------------------------------------------------------------
-//--------Strings: Functions: Methods & Properties
+//---Strings: Functions: Methods & Properties---
 //------------------------------------------------------------------------------------------------------------
 /* The below is a method function */
 console.log( 'Tiah said "Fifi was great on our walk today!"'.toUpperCase() );
@@ -45,9 +44,14 @@ the number/place of the character in the middle. The above, for example. */
 /* Chalenge: Uppercase the "m" in the Home and put the string back together using string concatenation. */
 //console.log( "Home"[2].toUpperCase() );
 console.log( "Home"[0] + "Home"[1] + "Home"[2].toUpperCase() + "Home"[3] );
+//------------------------------------------------------------------------------------------------------------
 
-/**/
-//Booleans
+
+//------------------------------------------------------------------------------------------------------------
+//---Booleans:
+//------------------------------------------------------------------------------------------------------------
+
+
 //------------------------------------------------------------------------------------------------------------
 //--- Numbers:
 //------------------------------------------------------------------------------------------------------------
