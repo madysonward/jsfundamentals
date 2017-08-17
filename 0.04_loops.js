@@ -14,7 +14,7 @@ for ( var i = 0; i < 10; i = i + 1 ) {
 /* Note: you can write the last comparison in the for loop as is, or as i += 1 or i++ */
 
 /* Challenge: Using a for loop, count to 20 by 2's. */
-for ( var x = 0; x < 21; x += 2 ) {
+for ( let x = 0; x < 21; x += 2 ) {
 	console.log(x);
 }
 /* The best way to write a for loop, as recommended by the instructor:
