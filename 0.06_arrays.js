@@ -1,8 +1,11 @@
 //------------------------------------------------------------------------------------------------
 //Arrays
 //------------------------------------------------------------------------------------------------
-/* Arrays can hold multiple data, and multiple data types. You can also have arrays within arrays!
-One key thing to keep in mind with arrays, is that data is stored by numbers, counting from 0 up. */
+/* Arrays can hold multiple data, and multiple data types. You can also have arrays within arrays, 
+or otherwise..multi-dimensional arrays! In order to specifically target multi-dimensional arrays, you
+must specify the # of the first array within the multi-dimensional array. (see the 2nd or 3rd line of
+code). One key thing to keep in mind with arrays, is that data is stored by numbers, counting from 0 
+up. */
 
 let students = ["Thomas", "Madyson", "Brandon", "Leon", 23, true, ["Jackson", "Perry"]];
 console.log(typeof(students));
