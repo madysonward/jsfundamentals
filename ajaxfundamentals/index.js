@@ -9,8 +9,10 @@ envoking it. */
 const http = require("http").Server(app);
 /* The above  */
 
+app.use(express.static(__dirname + "/public"));
+
 app.get("/about", function(req,res){
-	res.send("Hello World!")
+	res.sendFile(__dirname + "/index.html");
 })
 /* req = request
    res = response 

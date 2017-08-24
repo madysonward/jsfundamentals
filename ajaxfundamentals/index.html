@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AJAX Fundamentals</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./main.css">
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        		<span class="sr-only">Toggle navigation</span>
+		        		<span class="icon-bar"></span>
+		        		<!-- <span class="icon-bar"></span> -->
+		        		<span class="icon-bar"></span>
+		      		</button>
+		      		<a class="navbar-brand" href="#">Star Wars!</a>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="input-group">
+				<span class="input-group-btn">
+					<button class="btn btn-primary" type="button" id="searchName">Search</button>
+				</span>
+				<input type="text" class="form-control" placeholder="Search for a Character" id="searchRes">
+			</div>
+			<br>
+			<div class="well" id="searchResult"></div>
+			<hr>	
+			<input type="button" class="btn btn-primary" value="To Wookie" id="wookie">
+			<hr>
+			
+		
+			<div class="row">
+				<div class="col-md-6">
+					<table class="table table-striped">
+						<thead>
+							<th>
+								<tr>Planet Names</tr>
+							</th>
+						</thead>
+						<tbody id="planetList">
+					
+						</tbody>
+					</table>
+				</div>
+				<div class="col-md-6">
+					<table class="table table-striped">
+						<thead>
+							<th>
+								<tr>Starship Names</tr>
+							</th>
+						</thead>
+						<tbody id="shipList">
+						
+						</tbody>		
+					</table>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
